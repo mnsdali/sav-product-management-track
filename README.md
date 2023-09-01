@@ -13,26 +13,26 @@
 <ul>
     <h2> - 💡 Content and Key features of the project </h2>
     <li>
-        <ul> 🌀 Efficient Product Management:
+        <ul> <b>🌀 Efficient Product Management: </b>
             <li>🟡 Administrators can easily add and manage products and series. </li>
             <li>🟡 Automatic generation of QR codes for serial identification, interventions, reseller sales and production pieces arrivals. </li>
         </ul>
     </li>
     <li>
-        <ul> 🌀 Streamlined Workflow: 
+        <ul> <b>🌀 Streamlined Workflow: </b>
             <li>🟡 Immediate access to the product list after creation. </li>
             <li>🟡 Quick order placement for administrators. </li>
             <li>🟡 Reseller sales with customer data capture and purchase date recording. </li>
         </ul>
     </li>
     <li>
-        <ul> 🌀 Seamless Claim Submission:
+        <ul> <b>🌀 Seamless Claim Submission:</b>
             <li>🟡 Simple claim submission process via QR code scanning. </li>
             <li>🟡 Option for phone call claim submission in case of no smartphone access. </li>
         </ul>
     </li>
     <li>
-        <ul> 🌀 Administrative Tools: 
+        <ul> <b>🌀 Administrative Tools: </b> 
             <li>🟡 Efficient order lookup and claim processing for administrators. </li>
             <li>🟡 Real-time notifications for customer claims and technician deployments. </li>
             <li>🟡 Confirmation of claim visibility for administrators. </li>
