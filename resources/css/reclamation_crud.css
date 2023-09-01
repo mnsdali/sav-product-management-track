@@ -1,0 +1,177 @@
+
+#crud {
+    margin-bottom: 26rem;
+    max-height: 268px;
+}
+
+.margined {
+    width: 95%;
+    margin-left: 3rem;
+}
+
+.container-lg {
+    max-height: 30rem;
+    overflow-y: auto;
+}
+
+.reclamation-card {
+    width: 100%;
+    height: 90px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px 0 rgba(28, 30, 59, 0.37);
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    display: inline-flex;
+    flex-direction: row;
+
+}
+
+.reclamation-col-1{
+    width: 20%;
+    padding-top: 15px;
+    padding-left: 2%;
+}
+
+.reclamation-col-2{
+    padding-top: 10px;
+    padding-left: 2%;
+}
+
+.reclamation-col-2 p{
+    margin: 4px 0;
+    line-height: 16px;
+}
+
+.technicien{
+    margin: auto;
+    display:inline-flex;
+    margin-top: 4px;
+    margin-left: 30%;
+}
+
+.tech_id{
+    width: 5rem;
+}
+
+
+
+
+.reclamation-col-3{
+    width: 20%;
+
+    padding-left: 2%;
+    display: block;
+}
+
+.reclamation-card a {
+    cursor: pointer;
+    display: inline-flex;
+    margin: 0 5px;
+
+}
+
+.reclamation-card a.icon{
+    height: 35px;
+    width: 35px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    color: #1d1b31;
+    margin-top: 0.5rem;
+    margin-bottom: 0.2rem;
+}
+
+.reclamation-card a i{
+
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    font-size: 25px;
+    text-align: center;
+    color: #1d1b31;
+}
+
+.reclamation-card a:hover {
+    background: #e4e7edd7;
+}
+
+
+.fst-title {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+
+.pt{
+    font-weight: 600;
+    font-size: large;
+}
+
+.time:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.rec-author{
+    margin-bottom: 0;
+}
+
+.rec3-content{
+    display: flex;
+    width: 6rem;
+    margin: auto;
+    margin-left: 100%;
+}
+
+.hover-div {
+    display: none;
+    position: absolute;
+    background-color: #ecececf7;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    z-index: 999; /* Ensure it's on top */
+}
+
+.time:hover + .hover-div{
+    display: block;
+}
+
+.etat-red{
+    background-color: rgba(224, 0, 0, 0.742);
+    color: rgb(229, 0, 0);
+    border: 1px solid rgb(229, 0, 0) ;
+    transition: all 200ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.etat-red:hover{
+    background-color: rgba(233, 36, 36, 0.742);
+}
+
+.etat-yellow{
+    background-color: rgba(224, 205, 0, 0.742);
+    color: rgb(224, 205, 0);
+    border: 1px solid rgb(229, 221, 0) ;
+    transition: all 200ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.etat-green{
+    background-color: rgba(0, 224, 22, 0.742);
+    color: rgb(0, 229, 23);
+    border: 1px solid rgb(0, 229, 4) ;
+    transition: all 200ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+
+
+.etat-yellow:hover{
+    background-color: rgba(233, 197, 36, 0.742);
+}
+
+.etat-green:hover{
+    background-color: rgba(56, 233, 36, 0.742);
+}
+
